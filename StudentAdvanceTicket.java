@@ -11,7 +11,7 @@ public class StudentAdvanceTicket extends Ticket {
     }
 
     public String toString() {
-        return ("Number: " + super.getNumber() + ", Price: " + super.getPrice() + " (ID required)");
+        return ("Number: " + super.getNumber() + ", Price: " + super.getPrice() + " (Student ID required)");
     }
 
 }
