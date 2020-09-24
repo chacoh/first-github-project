@@ -4,6 +4,9 @@
 public class Main {
 
     public static void main(String[] args) {
+    	System.out.println("Welcome to the ticket reserve system for the upcoming event");
+    	System.out.println("Here are the prices for the different ticket options:");
+
         WalkupTicket ticket1 = new WalkupTicket(1);
         System.out.println(ticket1);
 
@@ -24,9 +27,9 @@ public class Main {
 
         System.out.println();
 
-        System.out.println("Ticket 1 price: $" + ticket1.getPrice());
-        System.out.println("Ticket 2 price: $" + ticket2.getPrice());
-        System.out.println("Ticket 5 price: $" + ticket5.getPrice());
+        System.out.println("Walkup ticket price: $" + ticket1.getPrice());
+        System.out.println("Advance ticket price: $" + ticket2.getPrice());
+        System.out.println("Student advance ticket price: $" + ticket5.getPrice());
     }
 
 }
