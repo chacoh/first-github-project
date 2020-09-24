@@ -4,7 +4,7 @@
 public class Main {
 
     public static void main(String[] args) {
-    	System.out.println("Welcome to the ticket reserve system for the best party!");
+    	System.out.println("Welcome to the ticket reserve system for the upcoming event");
     	System.out.println("Here are the prices for the different ticket options:");
 
         WalkupTicket ticket1 = new WalkupTicket(1);
